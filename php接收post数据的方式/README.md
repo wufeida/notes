@@ -34,14 +34,17 @@ name=Jonathan+Doe&age=23&formula=a+%2B+b+%3D%3D+13%25%21
 always_populate_raw_post_data = On
 ```
 ##### 还有一点，$HTTP_RAW_POST_DATA 不支持 enctype=”multipart/form-data” 方式传递的数据，这种情况下，我们要用 $_POST 获取字段的内容，$_FILES 来获取上传的文件信息。
+
 ## 3、php://input
+
 ##### 由于 $HTTP_RAW_POST_DATA 取决于 php.ini 设置，有没有更好的方法呢？
       
 ##### 我们可以使用 php://input 来获取原始的 POST 数据，并且 php://input 比 $HTTP_RAW_POST_DATA 更少消耗内存，当然 php://input 和 $HTTP_RAW_POST_DATA 一样，它也不支持 enctype=”multipart/form-data” 方式传递的数据。
 ##### 由于 php://input 只是数据流，我们可以使用 file_get_contents() 函数去获取它的内容：
 ```php
 $post_data = file_get_contents('php://input');
-print_r($post_data);
+parse_str($post_data, $param); // 把查询字符串解析到变量中
+print_r($param);
 ```
 ##### 获取到的内容和 $HTTP_RAW_POST_DATA 是一样的。
 ## 4、原始的 POST 数据有什么用？
