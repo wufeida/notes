@@ -345,19 +345,42 @@ if(!function_exists('GetIpLookup')) {
 /**
  * 返回可读性更好的文件尺寸
  */
-function human_filesize($bytes, $decimals = 2)
-{
-    $size = ['B', 'kB', 'MB', 'GB', 'TB', 'PB'];
-    $factor = floor((strlen($bytes) - 1) / 3);
+if(!function_exists('human_filesize')) {
 
-    return sprintf("%.{$decimals}f", $bytes / pow(1024, $factor)) .@$size[$factor];
+    function human_filesize($bytes, $decimals = 2)
+    {
+        $size = ['B', 'kB', 'MB', 'GB', 'TB', 'PB'];
+        $factor = floor((strlen($bytes) - 1) / 3);
+
+        return sprintf("%.{$decimals}f", $bytes / pow(1024, $factor)) .@$size[$factor];
+    }
 }
-
 /**
  * 判断文件的MIME类型是否为图片
  */
-function is_image($mimeType)
-{
-    return starts_with($mimeType, 'image/');
+if(!function_exists('is_image')) {
+    function is_image($mimeType)
+    {
+        return starts_with($mimeType, 'image/');
+    }
 }
+
+if(!function_exists('suiji')) {
+    /**
+     * @param $len 生成随机数长度
+     * @param $pattern 随机数种子
+     * @return string
+     */
+    function suiji($len, $pattern)
+    {
+        $key = '';
+        $strlen = strlen($pattern);
+        for($i=0;$i<$len;$i++)
+        {
+            $key .= $pattern{mt_rand(0,$strlen)};    //生成php随机数
+        }
+        return $key;
+    }
+}
+
 
