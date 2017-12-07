@@ -3,7 +3,8 @@
 ## 1、下载源码包
 #### 进入官网下载页面
 > https://redis.io/download
-#### 进入服务器放源码包的文件夹
+#### 复制你要下载的redis版本的下载链接
+#### 进入服务器放源码包的文件夹,下载文件，执行：
 
 ```cmd
 wget http://download.redis.io/releases/redis-4.0.6.tar.gz
