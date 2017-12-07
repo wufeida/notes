@@ -126,7 +126,7 @@ pstree
 ```cmd
  ├─supervisord───php
 ```
-#### 由此可以看出启动已经成功了！
+#### 由此可以看出已经成功启动！
 ## 3、管理进程
 #### 用 ``supervisorctl`` 查看已经被监控的program
 ```cmd
