@@ -1,5 +1,5 @@
 # Redis源码安装
-#### Redis是一个开源的使用ANSI,C语言编写、支持网络、可基于内存亦可持久化的日志型、Key-Value数据库，并提供多种语言的API。
+#### Redis是一个开源的使用ANSI C语言编写、支持网络、可基于内存亦可持久化的日志型、Key-Value数据库，并提供多种语言的API。
 ## 1、下载源码包
 #### 进入官网下载页面
 > https://redis.io/download
@@ -38,6 +38,10 @@ vim redis.conf
 #### 有了基本配置，redis还需要有一个管理启动、关闭、重启的一个脚本。redis源码里其实已经提供了一个初始化脚本，位置在/root/redis/utils/redis_init_script
 ## 4、配置redis管理和自启动
 #### 我们看下这个文件
+```cmd
+vim /root/redis/utils/redis_init_script
+```
+#### 内容如下：
 ```cmd
 #!/bin/sh
 #
@@ -83,21 +87,21 @@ case "$1" in
 esac
 ```
 
-#### 我们可以看到CONF这个选项，我们遵循该文件默认的配置项执行，配置文件应该放在/etc/redis/端口号.conf
+#### 通过CONF这个选项，我们应该将配置文件放在/etc/redis/端口号.conf，执行如下命令：
 ```cmd
 cd /etc
 mkdir redis
 cp /root/redis/redis.conf /etc/redis/6379.conf 
 ```
-#### 然后我们将redis提供的初始化脚本拷贝到/etc/init.d/redisd
+#### 然后我们将redis提供的初始化脚本redis_init_script文件拷贝到/etc/init.d/redisd
 ```cmd
 cp /root/redis/utils/redis_init_script /etc/init.d/redisd 
 ```
-#### 在/etc/init.d下的脚本都是可以在系统启动是自动启动的服务，而现在还缺一个系统启动时的配置：
+#### 在/etc/init.d下的脚本都是可以在系统启动是自动启动的服务，而现在还缺一个系统启动时的配置，执行以下命令：
 ```cmd
 chkconfig redisd on
 ```
-#### 此时发现service redisd does not support chkconfig这个错误，不支持chkconfig,我们此时需要改一下redisd这个文件，加上如下配置：
+#### 此时发现系统报了service redisd does not support chkconfig这个错误，redisd服务不支持chkconfig,我们此时需要改一下redisd这个文件，加上如下配置：
 ```cmd
 #!/bin/sh
 # chkconfig: 2345 90 10 
@@ -130,7 +134,7 @@ Starting Redis server...
 ```cmd
 service redisd stop
 ```
-#### 最后你可以重启一下系统，测试一下redis服务是否可以正常启动。
+#### 最后可以重启一下系统，测试一下redis服务是否可以正常自启动。
 #### 至此，redis安装完成。
 #### 参考文章：
 > https://www.cnblogs.com/zhxilin/p/5892678.html
