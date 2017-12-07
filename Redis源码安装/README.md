@@ -7,6 +7,7 @@
 #### 进入服务器放源码包的文件夹,下载文件，执行：
 
 ```cmd
+cd ~
 wget http://download.redis.io/releases/redis-4.0.6.tar.gz
 ```
 
