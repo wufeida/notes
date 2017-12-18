@@ -4,26 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/4.Redis源码安装/README.md" line="91" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9e7d5b6-118c-46a7-9637-aae55faa320b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Git回退版本/README.md" afterPath="$PROJECT_DIR$/3.Git回退版本/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Laravel项目部署遇到的问题/README.md" afterPath="$PROJECT_DIR$/6.Laravel项目部署遇到的问题/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Laravel项目部署遇到的问题/img/composer_proc_get_status.png" afterPath="$PROJECT_DIR$/6.Laravel项目部署遇到的问题/img/composer_proc_get_status.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Laravel项目部署遇到的问题/img/composer_proc_open.png" afterPath="$PROJECT_DIR$/6.Laravel项目部署遇到的问题/img/composer_proc_open.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Laravel项目部署遇到的问题/img/del_proc_get_status.png" afterPath="$PROJECT_DIR$/6.Laravel项目部署遇到的问题/img/del_proc_get_status.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Mysql5.7.19安装/README.md" afterPath="$PROJECT_DIR$/1.Mysql5.7.19安装/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Redis源码安装/README.md" afterPath="$PROJECT_DIR$/4.Redis源码安装/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Redis源码安装/img/redis2.png" afterPath="$PROJECT_DIR$/4.Redis源码安装/img/redis2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Supervisor的安装/README.md" afterPath="$PROJECT_DIR$/5.Supervisor的安装/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Supervisor的安装/img/9001.png" afterPath="$PROJECT_DIR$/5.Supervisor的安装/img/9001.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Supervisor的安装/img/ali_addsafe.png" afterPath="$PROJECT_DIR$/5.Supervisor的安装/img/ali_addsafe.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Supervisor的安装/img/ali_safe.png" afterPath="$PROJECT_DIR$/5.Supervisor的安装/img/ali_safe.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Supervisor的安装/img/ali_saferule.png" afterPath="$PROJECT_DIR$/5.Supervisor的安装/img/ali_saferule.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Supervisor的安装/img/super_weblogin.png" afterPath="$PROJECT_DIR$/5.Supervisor的安装/img/super_weblogin.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Supervisor的安装/img/supr_guanli.png" afterPath="$PROJECT_DIR$/5.Supervisor的安装/img/supr_guanli.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/php7.1.10安装/README.md" afterPath="$PROJECT_DIR$/2.php7.1.10安装/README.md" />
-    </list>
+    <list default="true" id="e9e7d5b6-118c-46a7-9637-aae55faa320b" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,8 +18,8 @@
         <entry file="file://$PROJECT_DIR$/php接收post数据的方式/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="198">
-                <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+              <first_editor relative-caret-position="616">
+                <caret line="27" column="55" lean-forward="true" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -175,7 +156,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38581000" />
+    <option name="totallyTimeSpent" value="38585000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -657,8 +638,8 @@
     <entry file="file://$PROJECT_DIR$/php接收post数据的方式/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="198">
-            <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <first_editor relative-caret-position="616">
+            <caret line="27" column="55" lean-forward="true" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
             <folding />
           </first_editor>
           <second_editor />
