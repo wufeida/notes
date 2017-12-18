@@ -5,6 +5,7 @@
     4. redis源码安装
     5. supervisor的安装
     6. laravel项目部署遇到的问题
+    7. php接收post数据的方式
 # Tools
     1. 添加远程保存图片函数
     2. 添加laravel常用函数
