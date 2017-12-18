@@ -14,7 +14,7 @@
  如果是使用ISAPI的方式来运行PHP就必须用Thread Safe(线程安全)的版本；
  而用FastCGI模式运行PHP的话就没有必要用线程安全检查了，用None Thread Safe(NTS，非线程安全)的版本能够更好的提高效率。
 ##### 通过上面了解我选择如下非线程安全版本
-![download](../img/php/download.png)
+![download](./img/download.png)
 ##### 下载完成解压放至安装目录（如：D:\phpStudy\php）
 ##### 重命名文件夹为php-7.1.10-nts
 ## 2、配置文件php.ini
@@ -24,10 +24,10 @@
 #开启php扩展存放目录
 extension_dir = "ext"
 ```
-![extdir](../img/php/extdir.png)
-![ext](../img/php/ext.png)
+![extdir](./img/extdir.png)
+![ext](./img/ext.png)
 ## 3、添加php环境变量
-![path](../img/php/path.gif)
+![path](./img/path.gif)
 #### php7.1.10安装完成
 
 

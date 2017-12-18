@@ -39,7 +39,7 @@ net start mysql          #启动服务器
    2017-10-12T06:02:49.697441Z 0 [ERROR] Can't find error-message file 'E:\mysql-5.7.19-winx64\share\errmsg.sys'. Check error-message file location and 'lc-messages-dir' configuration directive.
    2017-10-12T06:02:49.700115Z 0 [ERROR] Aborting
 ```
-![mysql error](../img/mysql/mysqlerror.png)
+![mysql error](./img/mysqlerror.png)
 #### 关闭该警告在my.ini的[mysqld]加入下面配置：
 ```cmd
 explicit_defaults_for_timestamp=true
@@ -47,8 +47,8 @@ explicit_defaults_for_timestamp=true
 ## 4、登录mysql并重置密码
 #### mysql -uroot -p 没有密码无法进入mysql
 #### 查看mysql安装目录的data目录（D:\phpStudy\MySQL\data）的以.err结尾的文件发现有以下内容
-![mysql log](../img/mysql/mysqllog.png)
-![password](../img/mysql/password.png)
+![mysql log](./img/mysqllog.png)
+![password](./img/password.png)
 #### 这就是mysql生成的一个随机密码 可以先用这个登录 
 ```cmd
 2017-10-12T06:06:39.245098Z 1 [Note] A temporary password is generated for root@localhost: h6wOgfUJ(psu
@@ -67,7 +67,7 @@ select version();
 ```
 ## 5、添加mysql环境变量
 
-![path](../img/mysql/path.gif)
+![path](./img/path.gif)
 #### Mysql5.7.19安装完成
 
 
