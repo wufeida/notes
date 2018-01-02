@@ -1,4 +1,4 @@
-# PHP开启opcache，让你的应用飞起来
+# PHP开启OPcache，让你的应用飞起来
 > OPcache通过将 PHP 脚本预编译的字节码存储到共享内存中来提升 PHP 的性能， 存储预编译字节码的好处就是 省去了每次加载和解析 PHP 脚本的开销。PHP 5.5.0 及后续版本中已经绑定了 OPcache 扩展。 对于 PHP 5.2，5.3 和 5.4 版本可以使用 PECL扩展中的 OPcache 库。
 ## 一、设置OPcache扩展路径
 找到php.ini这个配置文件，设置OPcache扩展路径(例如我的):
