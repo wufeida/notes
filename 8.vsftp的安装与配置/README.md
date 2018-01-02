@@ -35,18 +35,19 @@ listen=yes
 
 现在我需要将用户登录ftp后设置在自己家目录活动，也就是限制用户只能在自己家目录进行一系列操作，不能去到根目录以及其他目录，就要设置如下选项：
 ```cmd
-设置所有用户只能在自己家目录活动
+# 设置所有用户只能在自己家目录活动
 #chroot_local_user=YES
-调用限制在家目录的用户名单
+# 调用限制在家目录的用户名单
 chroot_list_enable=YES
-限制在家目录的用户名单所在路径 ，想限制谁，就把谁放在/etc/vsftpd/chroot_list这个文件里面 注意，一行一个用户
+# 限制在家目录的用户名单所在路径 ，想限制谁，就把谁放在/etc/vsftpd/chroot_list这个文件里面 注意，一行一个用户
 chroot_list_file=/etc/vsftpd/chroot_list
 
 ```
 配置完成后，重启vsftp。
 这里有一点需要注意：
-①如果开启``chroot_local_user``这个选项，所有用户都被限制在其主目录下，``chroot_list_enable``这个选项的意思就是在``/etc/vsftpd/chroot_list``这些用户作为“例外”，不受限制。
-②如果关闭``chroot_local_user``这个选项，所有用户都不会被限制，``chroot_list_enable``这个选项的意思就是在``/etc/vsftpd/chroot_list``这些用户也作为“例外”，受活动范围的限制。
+> ①如果开启``chroot_local_user``这个选项，所有用户都被限制在其主目录下，``chroot_list_enable``这个选项的意思就是在``/etc/vsftpd/chroot_list``这些用户作为“例外”，不受限制。
+
+> ②如果关闭``chroot_local_user``这个选项，所有用户都不会被限制，``chroot_list_enable``这个选项的意思就是在``/etc/vsftpd/chroot_list``这些用户也作为“例外”，受活动范围的限制。
 上面这两点都是基于``chroot_list_enable``开启的情况下说明的。
 ## 三、添加ftp用户
 这里我需要添加的这个ftp用户只能登录ftp，不能登录shell，添加用户的时候就需要注意：
