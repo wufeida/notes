@@ -47,6 +47,7 @@ opcache.fast_shutdown=1
 
 最终我们的优化配置为：
 ```cmd
+zend_extension=/usr/local/php/lib/php/extensions/no-debug-non-zts-20160303/opcache.so
 opcache.enable=1
 opcache.memory_consumption=512
 opcache.interned_strings_buffer=64
