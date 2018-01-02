@@ -48,7 +48,8 @@ chroot_list_file=/etc/vsftpd/chroot_list
 > ①如果开启``chroot_local_user``这个选项，所有用户都被限制在其主目录下。那么，``chroot_list_enable``这个选项的意思就是在``/etc/vsftpd/chroot_list``这些用户作为“例外”，不受限制。
 
 > ②如果关闭``chroot_local_user``这个选项，所有用户都不会被限制。那么，``chroot_list_enable``这个选项的意思就是在``/etc/vsftpd/chroot_list``这些用户也作为“例外”，受活动范围的限制。
-上面这两点都是基于``chroot_list_enable``开启的情况下说明的。
+
+>上面这两点都是基于``chroot_list_enable``开启的情况下说明的。
 ## 三、添加ftp用户
 这里我需要添加的这个ftp用户只能登录ftp，不能登录shell，添加用户的时候就需要注意：
 ```cmd
