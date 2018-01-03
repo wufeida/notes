@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9e7d5b6-118c-46a7-9637-aae55faa320b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/10.百度云加速的使用/README.md" afterPath="$PROJECT_DIR$/10.百度云加速的使用/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,12 +17,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/10.百度云加速的使用/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="775">
-                <caret line="98" column="232" lean-forward="true" selection-start-line="98" selection-start-column="232" selection-end-line="98" selection-end-column="232" />
+              <first_editor relative-caret-position="437">
+                <caret line="96" column="27" lean-forward="false" selection-start-line="96" selection-start-column="27" selection-end-line="96" selection-end-column="27" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -30,7 +30,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -71,8 +71,8 @@
         <option value="$PROJECT_DIR$/9.php开启opcache/README.md" />
         <option value="$PROJECT_DIR$/9.PHP开启OPcache/README.md" />
         <option value="$PROJECT_DIR$/10.百度云加速踩坑笔记1-图片延迟加载问题/README.md" />
-        <option value="$PROJECT_DIR$/10.百度云加速的使用/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/10.百度云加速的使用/README.md" />
       </list>
     </option>
   </component>
@@ -183,12 +183,12 @@
       <workItem from="1514537743248" duration="617000" />
       <workItem from="1514859837267" duration="11147000" />
       <workItem from="1514944103279" duration="5393000" />
-      <workItem from="1514955100958" duration="8261000" />
+      <workItem from="1514955100958" duration="8328000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64524000" />
+    <option name="totallyTimeSpent" value="64591000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -665,22 +665,22 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/10.百度云加速的使用/README.md">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="775">
-            <caret line="98" column="232" lean-forward="true" selection-start-line="98" selection-start-column="232" selection-end-line="98" selection-end-column="232" />
+          <first_editor relative-caret-position="220">
+            <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/10.百度云加速的使用/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="220">
-            <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <first_editor relative-caret-position="437">
+            <caret line="96" column="27" lean-forward="false" selection-start-line="96" selection-start-column="27" selection-end-line="96" selection-end-column="27" />
             <folding />
           </first_editor>
           <second_editor />
