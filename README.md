@@ -8,6 +8,7 @@
     7. php接收post数据的方式
     8. vsftp的安装与配置
     9. PHP开启OPcache
+    10. 百度云加速的使用
 # Tools
     1. 添加远程保存图片函数
     2. 添加laravel常用函数
