@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9e7d5b6-118c-46a7-9637-aae55faa320b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/14.CDN及CDN加速原理/img/cdn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/14.CDN及CDN加速原理/img/normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/14.CDN及CDN加速原理/img/server_network.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/14.CDN及CDN加速原理/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,7 +20,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -29,12 +33,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/13.百度云加速踩坑日记3-获取客户端真实IP的坑/README.md">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/14.CDN及CDN加速原理/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="528">
-                <caret line="125" column="21" lean-forward="false" selection-start-line="125" selection-start-column="21" selection-end-line="125" selection-end-column="21" />
+              <first_editor relative-caret-position="789">
+                <caret line="259" column="65" lean-forward="false" selection-start-line="259" selection-start-column="65" selection-end-line="259" selection-end-column="65" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -79,6 +83,7 @@
         <option value="$PROJECT_DIR$/13.百度云加速踩坑日记3-获取客户端IP的坑/README.md" />
         <option value="$PROJECT_DIR$/13.百度云加速踩坑日记3-获取客户端真实IP的坑/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/14.CDN及CDN加速原理/README.md" />
       </list>
     </option>
   </component>
@@ -125,12 +130,18 @@
             <path>
               <item name="notes" type="b2602c69:ProjectViewProjectNode" />
               <item name="notes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="12.百度云加速踩坑日记2-缓存粒度设置所有都缓存的坑" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="13.百度云加速踩坑日记3-获取客户端真实IP的坑" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="notes" type="b2602c69:ProjectViewProjectNode" />
               <item name="notes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="13.百度云加速踩坑日记3-获取客户端真实IP的坑" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="14.CDN及CDN加速原理" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="notes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="notes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="14.CDN及CDN加速原理" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -145,11 +156,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\phpStudy\WWW\notes\14.CDN及CDN加速原理\img" />
       <recent name="D:\phpStudy\WWW\notes" />
       <recent name="D:\phpStudy\WWW\notes\12.百度云加速踩坑日记2-缓存粒度设置所有都缓存的坑\img" />
       <recent name="D:\phpStudy\WWW\notes\11.百度云加速踩坑日记1-图片延迟加载的坑\img" />
       <recent name="D:\phpStudy\WWW\notes\10.百度云加速的使用\img" />
-      <recent name="D:\phpStudy\WWW\notes\2.php7.1.10安装\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -266,12 +277,12 @@
       <workItem from="1514990866246" duration="2902000" />
       <workItem from="1515046864604" duration="4449000" />
       <workItem from="1515056049146" duration="2071000" />
-      <workItem from="1515135830507" duration="7073000" />
+      <workItem from="1515135830507" duration="10253000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83827000" />
+    <option name="totallyTimeSpent" value="87007000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -286,14 +297,14 @@
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13970588" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13970588" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32807216" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32807216" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -342,7 +353,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore" />
     <entry file="file://$PROJECT_DIR$/Tools/LaravelHelpers.php" />
     <entry file="file://$PROJECT_DIR$/.gitignore" />
     <entry file="file://$PROJECT_DIR$/7.php接收post数据的方式/README.md" />
@@ -424,10 +434,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="352">
+            <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/13.百度云加速踩坑日记3-获取客户端真实IP的坑/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="528">
+          <first_editor relative-caret-position="489">
             <caret line="125" column="21" lean-forward="false" selection-start-line="125" selection-start-column="21" selection-end-line="125" selection-end-column="21" />
             <folding />
           </first_editor>
@@ -435,11 +456,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/14.CDN及CDN加速原理/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="352">
-            <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <first_editor relative-caret-position="789">
+            <caret line="259" column="65" lean-forward="false" selection-start-line="259" selection-start-column="65" selection-end-line="259" selection-end-column="65" />
             <folding />
           </first_editor>
           <second_editor />
