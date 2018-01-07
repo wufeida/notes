@@ -100,6 +100,7 @@ select * from `articles` where `is_draft` = 0 group by date_format(published_at,
 10. ``ANSI_QUOTES``:启用ANSI_QUOTES后，不能用双引号来引用字符串，因为它被解释为识别符
 
 **如果使用mysql，为了继续保留大家使用oracle的习惯，可以对mysql的sql_mode设置如下：**
+
 在my.cnf添加如下设置：
 ```cmd
 [mysqld]
