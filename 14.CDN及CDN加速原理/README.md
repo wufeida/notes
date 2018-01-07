@@ -258,5 +258,3 @@ www.cdntest.com | 	default_cdntest.zone | 192.168.0.4
 - 在建立CDN网路时，最关键的就是 智能调度DNS，这个是CND网络总协调,通过高效的调度算法，可以使用户得到最佳的访问体验.
 - 其次就是 CND节点的管理,比如涉及到 内容的同步机制，配置文件的更新等等，都需要有一套机制来保证.
 - 当然在大型网站中，也要考建设CDN体系的成本和回报率.
-
-本文为转载，原文地址：http://blog.csdn.net/luoweifu/article/details/51031099
