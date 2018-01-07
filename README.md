@@ -1,19 +1,19 @@
 # notes
-    1. mysql5.7.19（windows）的安装
-    2. php7.1.10（windows）的安装
-    3. git版本回退方法
-    4. redis源码安装
-    5. supervisor的安装
-    6. laravel项目部署遇到的问题
-    7. php接收post数据的方式
-    8. vsftp的安装与配置
-    9. PHP开启OPcache
-    10. 百度云加速的使用
-    11. 百度云加速踩坑日记1-图片延迟加载的坑
-    12. 百度云加速踩坑日记2-缓存粒度设置所有都缓存的坑
-    13. 百度云加速踩坑日记3-获取客户端真实IP的坑
-    14. CDN及CDN加速原理
-    15. Laravel中使用groupBy遇到的坑
+1. mysql5.7.19（windows）的安装
+2. php7.1.10（windows）的安装
+3. git版本回退方法
+4. redis源码安装
+5. supervisor的安装
+6. laravel项目部署遇到的问题
+7. php接收post数据的方式
+8. vsftp的安装与配置
+9. PHP开启OPcache
+10. 百度云加速的使用
+11. 百度云加速踩坑日记1-图片延迟加载的坑
+12. 百度云加速踩坑日记2-缓存粒度设置所有都缓存的坑
+13. 百度云加速踩坑日记3-获取客户端真实IP的坑
+14. CDN及CDN加速原理
+15. Laravel中使用groupBy遇到的坑
 # Tools
-    1. 添加远程保存图片函数
-    2. 添加laravel常用函数
+1. 添加远程保存图片函数
+2. 添加laravel常用函数
