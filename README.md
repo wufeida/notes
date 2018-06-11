@@ -14,6 +14,7 @@
 13. 百度云加速踩坑日记3-获取客户端真实IP的坑
 14. CDN及CDN加速原理
 15. Laravel中使用groupBy遇到的坑
+16. Phpstorm使用xdebug调试
 # Tools
 1. 添加远程保存图片函数
 2. 添加laravel常用函数
