@@ -15,6 +15,7 @@
 14. CDN及CDN加速原理
 15. Laravel中使用groupBy遇到的坑
 16. Phpstorm使用xdebug调试
+17. Git全局配置和局部配置
 # Tools
 1. 添加远程保存图片函数
 2. 添加laravel常用函数
